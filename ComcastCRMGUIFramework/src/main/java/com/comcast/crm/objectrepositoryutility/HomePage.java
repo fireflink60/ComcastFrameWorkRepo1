@@ -27,8 +27,28 @@ public class HomePage {
 		  public WebElement getOrgbtn() {
 			return orgbtn;
 		}
+  
+		    @FindBy(linkText = "Products")
+		    WebElement product;
 
 
+		  public WebElement getProduct() {
+				return product;
+			}
+
+			 
+
+			public WebDriver getD() {
+				return d;
+			}
+
+			public WebElement getMovetoLogout() {
+				return movetoLogout;
+			}
+
+			public WebElement getSignoutbtn() {
+				return signoutbtn;
+			}
 
 		  public HomePage(WebDriver d) {
 			  this.d=d;
