@@ -3,7 +3,7 @@
 <suite name="RegressionSuite">
   <test thread-count="5" name="RegressionTest">
     <classes>
-      <class name="com.comcast.crm.generic.contacttest.CreateContactTest1"/>
+      <class name="com.comcast.crm.generic.contacttest.CreateContactTest11"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
